@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: adrianwolf
+Build-Jdk: 11.0.2
+Implementation-Title: Empleados
+Implementation-Version: 0.0.1
+Implementation-Vendor-Id: mx.com.softtek
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/Empleados
+Created-By: Maven Integration for Eclipse
+

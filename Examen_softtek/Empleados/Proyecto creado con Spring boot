@@ -1,0 +1,28 @@
+Proyecto creado con Spring boot
+
+Se cambió Scripts
+
+/* Rest catálogo de Areas */
+http://localhost:8080/catalog/areas
+
+/* Rest obtener empleados por area*/
+http://localhost:8080/recursos/empleados/{cveArea}
+
+/* Soap para agregar un empleado */
+
+http://localhost:8080/ws/empleados.wsdl
+
+ejemplo de request:
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:emp="http://softtek.com.mx/empleados">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <emp:empleadoRequest>
+         <emp:cveEmpleado>WR3I6-96743</emp:cveEmpleado>
+         <emp:nombre>Juan</emp:nombre>
+         <emp:paterno>Pérez</emp:paterno>
+         <emp:materno>Martínez</emp:materno>
+         <emp:cveArea>ALMCN</emp:cveArea>
+      </emp:empleadoRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
